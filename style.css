@@ -1,0 +1,28 @@
+#count_dis{
+        display: none;
+}
+
+.ss {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.reset{
+        display: none;
+}
+#show{
+        display: none;
+}
+#hide{
+        display: block;   
+}
+
+li{
+        float: left;
+}
+.li_rest{
+        margin-left: 150px;
+
+}
+/* show: none */
+/* hide block */

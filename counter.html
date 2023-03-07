@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tasbiix</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#8A2BE2] ">
+
+        <div class="flex justify-center items-center mr-32">
+                <button class="bg-white rounded-lg text-black px-2 w-44 
+                py-4 m-10 shadow-4xl" id="btn_1">Add counter</button>
+        </div>
+        <section class="sec">
+                <div class="flex  justify-center items-center " id="count_dis">
+                        <div class="bg-gray-100 shadow-lg h-96 w-80 rounded-md ">  
+                                <div class=" "> 
+                                        <h1 class="flex justify-end mb-6 mr-4 
+                                        bold cursor-pointer" id="cancel">x</h1>
+                                </div>
+                                
+                                <div>
+                                        <!-- <span class="reset_counter_name ">x</span> -->
+                                        <ul class="flex justify-center
+                                         mb-4 " id="show_tasb"> </ul>
+                                       
+                                </div><br />
+
+                                <div class="mt-10 shadow-inner shadow-gray-400 bg-white flex 
+                                 flex-row
+                                 justify-between px-6 mt-2 mx-6 py-4 rounded-lg">
+                                     
+                                                <h1 class="reset" id="reset">reset all</h1>
+                                                <h1 class="" id="counter">0</h1>
+                                </div>
+
+
+
+                                <div class="flex justify-center mt-4 ">
+                                        <button class="text-lg bold bg-[#8A2BE2] shadow-lg py-2 px-14 text-white rounded-lg mx-4 " id="decrease_btn">-</button>
+                                        <button class="text-lg bold bg-[#8A2BE2] shadow-lg py-2 px-14 text-white rounded-lg mx-4 " id="add_btn">+</button>
+                                </div>
+
+
+
+
+
+                                <div class="flex flex-col justify-center items-center mt-4">
+                                        <button class="bg-[#8A2BE2] px-0 my-2 w-72 rounded-lg py-2 text-white" id="reset_btn">Reset counter</button>
+                                        <button class="bg-[#8A2BE2] px-0 my-2 w-72 rounded-lg py-2 text-white" id="hide">counter name</button>
+                                        <form action="" id="show">
+                                                <input class="outline-none pl-2 w-48 h-10" type="text" placeholder="type istigfaar" id="input_value">
+                                                <button class="
+                                                bg-[#8A2BE2] w-16 text-white h-10 rounded-md" type="submit" id="set_btn">Set</button>
+                                        </form>
+                                </div>
+
+
+
+
+
+                        </div>
+                </div>
+        </section>
+
+
+        <script src="main.js"></script>
+</body>
+</html>
